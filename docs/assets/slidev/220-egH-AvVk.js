@@ -1,3 +1,0 @@
-import{o as r,c as a,k as s,g as n,q as i,s as m,B as e,e as t}from"../modules/vue-5f8YWAHd.js";import{_}from"../literal_no_alert-C7AByw1o.js";import{I as c}from"./default-B_XGSeiy.js";import{dO as o}from"../index-B5G1tGyL.js";import{p as l,u as p,f as d}from"./context-GBBOVTOM.js";import"../modules/shiki-Bzt_bDtX.js";const u=t("p",null,"実際に、デフォルトのVSCodeの設定で表示したのが以下",-1),f=t("p",null,[t("img",{src:_,alt:"literal_no_alert"})],-1),g=t("h3",null,"なんとも穏やかで優しい色合い…",-1),N={__name:"220",setup(h){return l(o),p(),(v,x)=>(r(),a(c,i(m(e(d)(e(o),219))),{default:s(()=>[u,n(` <div class="center">
-  <img src="/img/literal_no_alert.png"/>
-</div> `),f,g]),_:1},16))}};export{N as default};
