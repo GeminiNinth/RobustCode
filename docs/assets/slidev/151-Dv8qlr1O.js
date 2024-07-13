@@ -1,0 +1,4 @@
+import{o as n,c as e,k as r,q as s,s as a,B as t,e as l}from"../modules/vue-5f8YWAHd.js";import{I as u}from"./default-B_XGSeiy.js";import{cG as o}from"../index-B5G1tGyL.js";import{p,u as c,f as i}from"./context-GBBOVTOM.js";import"../modules/shiki-Bzt_bDtX.js";const _=l("h2",null,"クラス・モジュール・ライブラリの違い",-1),m=l("ul",null,[l("li",null,[l("p",null,[l("strong",null,"クラス（Class）")]),l("p",null,"オブジェクト指向プログラミングの基本単位であり、オブジェクトの設計図。"),l("p",null,"データ（属性）とそのデータを操作する関数（メソッド）を持つ。")]),l("li",null,[l("p",null,[l("strong",null,"モジュール（Module）")]),l("p",null,"関連するクラスや関数、変数を1つのファイルにまとめたもの。"),l("p",null,"モジュールをインポートすることで、その中のコードを再利用できる。")])],-1),d=l("p",null,[l("strong",null,"ライブラリ（Library）")],-1),f=l("pre",null,[l("code",null,`関連するモジュールのコレクションであり、特定のタスクを効率的に行うためのツールや機能をまとめて提供。
+
+通常は複数のモジュールから成立する。
+`)],-1),y={__name:"151",setup(h){return p(o),c(),(g,x)=>(n(),e(u,s(a(t(i)(t(o),150))),{default:r(()=>[_,m,d,f]),_:1},16))}};export{y as default};
