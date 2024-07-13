@@ -1,0 +1,149 @@
+.safe {
+  color: rgb(56, 223, 109);
+  background-color: rgb(0, 255, 150, 0.02);
+}
+
+.warn {
+  color: rgb(255, 108, 108);
+  background-color: rgb(255, 118, 100,0.05);
+}
+
+.warn-italic {
+  font-style: italic;
+}
+
+img {
+  object-fit: cover;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  text-align: center;
+}
+.center img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.middle-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  text-align: center;
+}
+
+.middle-center img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.small-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  text-align: center;
+}
+
+.small-center img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.min-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40%;
+}
+
+.min-center img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tiny-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30%;
+}
+
+.tiny-center img{
+  max-width: 75%;
+  max-height: 100%;
+}
+
+.uooo table {
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  max-height: 100%;
+}
+
+.mid-text {
+  font-size: 0.85em; /* 文字の大きさを指定 */
+}
+
+.small-text {
+  font-size: 0.7em; /* 文字の大きさを指定 */
+}
+
+.scrollable-table {
+  max-height: 300px; /* 表の最大高さを指定 */
+  overflow-y: auto; /* 縦方向のスクロールバーを有効にする */
+}
+
+.mermaid-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  overflow: auto;
+
+  }
+  
+.mermaid {
+  max-width: 100%; 
+  max-height: 30vh;
+  width: auto;
+  height: auto;
+}
+  
+.mermaid-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 100vh; */
+  overflow: auto;
+  
+}
+
+.mermaid-container.special-diagram .mermaid {
+  max-width: 30%; /* 特定のダイアグラムに対して最大幅を広げる */
+  max-height: 100vh;
+}
+
+.mermaid-container.special-diagram-longer .mermaid {
+  max-width: 20%; /* 特定のダイアグラムに対して最大幅を広げる */
+  max-height: 100vh;
+}
+
+.side-margin{
+  margin-right: 10px;
+  margin-right: 10px;
+}
+
+.left-column {
+  margin-right: 20px;
+}
+.right-column {
+  margin-left: 20px;
+}
